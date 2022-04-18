@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnlf/Team-Profile-Generator.git"
+  },
+  "author": "Autumn Fields",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/autumnlf/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/autumnlf/Team-Profile-Generator#readme"
+}
