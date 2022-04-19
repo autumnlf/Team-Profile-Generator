@@ -111,7 +111,7 @@ const employeeQuestions = () => {
 
 //creating the info card for the manager
 function generateManagerCard() {
-    let x = `
+    let cardOne = `
             <div class="card">
                 <section class= "cardTop">
                     <h2>${managerData[0].managerName}</h2>
@@ -124,14 +124,14 @@ function generateManagerCard() {
                 </section>
             </div>
     `;
-    cardData.push(x);
+    cardData.push(cardOne);
 };
   
 //creating the info cards for engineers
 function generateEngineerCards(){
-    let y = ``;
+    let cardTwo = ``;
     for (let i=0; i < engineerData.length; i++){
-        y = `
+        cardTwo = `
             <div class="card">
                 <section class= "cardTop">
                     <h2>${engineerData[i].employeeName}</h2>
@@ -140,20 +140,20 @@ function generateEngineerCards(){
                 <section class="cardBody">
                     <p>ID: ${engineerData[i].employeeID}</p>
                     <a href="mailto:${engineerData[i].email}" target="blank">Email: ${engineerData[i].email}</a>
-                    <a>github: ${engineerData[i].github}</a>
+                    <a href="https://github.com/${engineerData[i].github}" target="blank">github: ${engineerData[i].github}</a>
                 </section>
             </div>
         `;
-        cardData.push(y);
+        cardData.push(cardTwo);
     };
     return cardData;
 };
 
 //creating the info cards for interns
 function generateInternCards(){
-    let z = ``;
+    let cardThree = ``;
     for (let i=0; i < internData.length; i++){
-        z = `
+        cardThree = `
             <div class="card">
                 <section class= "cardTop">
                     <h2>${internData[i].employeeName}</h2>
@@ -166,7 +166,7 @@ function generateInternCards(){
                 </section>
             </div>
         `;
-        cardData.push(z);
+        cardData.push(cardThree);
     };
     return cardData;
 };
