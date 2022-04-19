@@ -1,0 +1,82 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(247, 172, 74);
+    height: 4rem;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    height: 13rem;
+    width: 16rem;
+    min-width: fit-content;
+    background-color: antiquewhite;
+    box-shadow: 0.35rem 0.35rem 0rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.15rem;
+    margin: 20px;
+}
+
+.cardTop{
+    text-align: center;
+    height: 5rem;
+    background-color: rgb(235, 123, 48);
+    color: antiquewhite;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.75rem;
+    padding: 1rem 0 0 0;
+}
+
+.cardTop p{
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cardBody p{
+    margin: 1rem 1rem 0 1rem;
+}
+
+a{
+    margin: 1rem 1rem 0 1rem;
+    text-decoration: none;
+    color: black;
+}
