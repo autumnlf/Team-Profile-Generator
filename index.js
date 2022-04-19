@@ -123,6 +123,7 @@ function generateManagerCard() {
                     <p>Office: ${managerData[0].managerOffice}</p>
                 </section>
             </div>
+            <!--
     `;
     cardData.push(cardOne);
 };
@@ -132,6 +133,7 @@ function generateEngineerCards(){
     let cardTwo = ``;
     for (let i=0; i < engineerData.length; i++){
         cardTwo = `
+            -->
             <div class="card">
                 <section class= "cardTop">
                     <h2>${engineerData[i].employeeName}</h2>
@@ -143,6 +145,7 @@ function generateEngineerCards(){
                     <a href="https://github.com/${engineerData[i].github}" target="blank">github: ${engineerData[i].github}</a>
                 </section>
             </div>
+            <!--
         `;
         cardData.push(cardTwo);
     };
@@ -154,6 +157,7 @@ function generateInternCards(){
     let cardThree = ``;
     for (let i=0; i < internData.length; i++){
         cardThree = `
+            -->
             <div class="card">
                 <section class= "cardTop">
                     <h2>${internData[i].employeeName}</h2>
@@ -165,6 +169,7 @@ function generateInternCards(){
                     <p>School: ${internData[i].school}</p>
                 </section>
             </div>
+            <!--
         `;
         cardData.push(cardThree);
     };
@@ -192,6 +197,7 @@ function generateWebpage(){
 
         <container id="cardContainer" class="container">
             ${cardData}
+        -->    
         </container>
         
     </body>
