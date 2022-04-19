@@ -1,7 +1,10 @@
 # Team-Profile-Generator
 
 ## Description
-    For this homework assignment we are tasked with creating an application for generating an HTML file through the use of command line prompts. The generated HTML is a webpage to show information about a workplace team that includes a manager, engineers, and interns. Through the command line prompts, the user inputs information about the members of their team.
+    For this homework assignment we are tasked with creating an application for generating an HTML 
+    file through the use of command line prompts. The generated HTML is a webpage to show information 
+    about a workplace team that includes a manager, engineers, and interns. Through the command line 
+    prompts, the user inputs information about the members of their team.
 
 Acceptance Criteria:
 
